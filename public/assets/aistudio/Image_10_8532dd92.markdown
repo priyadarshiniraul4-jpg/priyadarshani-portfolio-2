@@ -1,0 +1,210 @@
+---
+name: Nexus Technical Portfolio
+colors:
+  surface: '#131313'
+  surface-dim: '#131313'
+  surface-bright: '#393939'
+  surface-container-lowest: '#0e0e0e'
+  surface-container-low: '#1c1b1b'
+  surface-container: '#201f1f'
+  surface-container-high: '#2a2a2a'
+  surface-container-highest: '#353534'
+  on-surface: '#e5e2e1'
+  on-surface-variant: '#e2bfb3'
+  inverse-surface: '#e5e2e1'
+  inverse-on-surface: '#313030'
+  outline: '#a98a7f'
+  outline-variant: '#5a4138'
+  surface-tint: '#ffb599'
+  primary: '#ffb599'
+  on-primary: '#5a1c00'
+  primary-container: '#ff6a26'
+  on-primary-container: '#5b1c00'
+  inverse-primary: '#a73a00'
+  secondary: '#4edea3'
+  on-secondary: '#003824'
+  secondary-container: '#00a572'
+  on-secondary-container: '#00311f'
+  tertiary: '#7dd0ff'
+  on-tertiary: '#00344a'
+  tertiary-container: '#00a4de'
+  on-tertiary-container: '#00354b'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffdbce'
+  primary-fixed-dim: '#ffb599'
+  on-primary-fixed: '#370e00'
+  on-primary-fixed-variant: '#7f2b00'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#c4e7ff'
+  tertiary-fixed-dim: '#7dd0ff'
+  on-tertiary-fixed: '#001e2d'
+  on-tertiary-fixed-variant: '#004c6a'
+  background: '#131313'
+  on-background: '#e5e2e1'
+  surface-variant: '#353534'
+typography:
+  display:
+    fontFamily: Hanken Grotesk
+    fontSize: 3.75rem
+    fontWeight: '600'
+    lineHeight: '1.05'
+    letterSpacing: -0.04em
+  headline-lg:
+    fontFamily: Hanken Grotesk
+    fontSize: 2.5rem
+    fontWeight: '600'
+    lineHeight: '1.15'
+    letterSpacing: -0.03em
+  headline-lg-mobile:
+    fontFamily: Hanken Grotesk
+    fontSize: 1.875rem
+    fontWeight: '600'
+    lineHeight: '1.2'
+    letterSpacing: -0.025em
+  headline-md:
+    fontFamily: Hanken Grotesk
+    fontSize: 1.5rem
+    fontWeight: '500'
+    lineHeight: '1.25'
+    letterSpacing: -0.02em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: '1.6'
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Geist
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: '1.5'
+    letterSpacing: -0.005em
+  body-sm:
+    fontFamily: Geist
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: '1.45'
+    letterSpacing: 0em
+  label-md:
+    fontFamily: Geist
+    fontSize: 0.75rem
+    fontWeight: '500'
+    lineHeight: '1.2'
+    letterSpacing: 0.04em
+  code-snippet:
+    fontFamily: Geist
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: '1.5'
+    letterSpacing: 0em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  gutter-lg: 2rem
+  margin: 2rem
+  margin-sm: 1.25rem
+  margin-lg: 4rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system delivers a bespoke, engineer-designer portfolio interface characterized by technical precision, architectural discipline, and high-fidelity restraint. Rooted in minimalist constructivism, it merges functional developer tool aesthetics with the curated polish of an elite design consultancy.
+
+### Visual Signature
+- **Architectural Discipline:** Structured dark surfaces layered over deep obsidian and charcoal substrates, accented by razor-sharp lines and deliberate geometry.
+- **Precision Energy:** A high-intensity incandescent orange accent (`#FF6A26`) acts as an operational signal against deep achromatic canvas tiers, balanced by vivid system status indicators (emerald green).
+- **Tactile Modernism:** Frosted structural headers, sub-pixel edge definitions, and restrained interaction physics that respond with immediate, crisp feedback.
+
+## Colors
+
+The palette establishes high technical legibility through deliberate luminosity stepping. It eschews pure synthetic black for calibrated charcoal neutrals that retain depth and prevent ocular fatigue.
+
+### Palette Architecture
+- **Primary Accent (`#FF6A26`):** The incandescent kinetic beacon. Reserved strictly for primary callouts, active timeline markers, dynamic cursor targets, and critical interactive thresholds.
+- **Secondary Status (`#10B981`):** Operational signal. Applied to live telemetry, production status badges, and verified deployment indicators.
+- **Surface Neutrals:**
+  - `Base Canvas`: `#0E0E0E` (Deep Obsidian)
+  - `Surface 1 / Elevated`: `#141414` (Subtle Card Surface)
+  - `Surface 2 / Hover`: `#1B1B1B` (Interactive Card Layer)
+  - `Surface Border / Sub-pixel`: `rgba(255, 255, 255, 0.08)` (Crisp separator line)
+- **Typographic Luminosity:**
+  - `Headline / Text Primary`: `#F3F3F3` (Crisp off-white, high contrast)
+  - `Text Secondary / Metadata`: `#A3A3A3` (Muted technical body)
+  - `Text Muted / Code Comments`: `#666666` (De-emphasized notations)
+
+## Typography
+
+The typographic hierarchy pairs the structured, geometric gravitas of **Hanken Grotesk** for display headers with the monolinear, engineer-grade clarity of **Geist** for text and metadata.
+
+### Typesetting Rules
+- **Display & Large Headlines:** Tracked tight (`-0.03em` to `-0.04em`) to establish authoritative, compact architectural lockups.
+- **Body Elements:** Retain neutral geometric balance with generous line heights (`1.5`–`1.6`) to maintain readability across long-form case studies and engineering breakdowns.
+- **Labels & Metatags:** Formatted in uppercase or calibrated tracking (`0.04em`) to provide instant visual scans for tech stack chips and commit logs.
+
+## Layout & Spacing
+
+A 12-column dynamic fluid grid underpins all viewports, structured around a strict 4px/8px modular rhythm. Content aligns against fixed inner constraints to prioritize readability while allowing peripheral data telemetry to expand.
+
+### Responsive Breakpoints
+- **Mobile (< 768px):** 4-column layout; gutter `1rem`; horizontal canvas margin `1.25rem`. Complex two-dimensional grids collapse into vertical linear cards.
+- **Tablet (768px - 1024px):** 8-column layout; gutter `1.5rem`; canvas margin `2rem`. Project metrics and case study previews adopt alternating 4-column blocks.
+- **Desktop (> 1024px):** 12-column layout; max content width `1280px`; gutter `2rem`; canvas margin `4rem`. Asymmetric splits (e.g., 5-column sticky bio alongside 7-column project index).
+
+## Elevation & Depth
+
+Visual hierarchy uses physical depth simulation rather than high-contrast shadows. Depth is achieved via tonal surface stepping, refined border illumination, and translucent material filters.
+
+### Layer Hierarchy
+1. **Base Ground (`#0E0E0E`):** The primary canvas upon which all layout blocks rest.
+2. **Structural Panels (`#141414`):** Elevated cards defined by a hairline outline (`1px solid rgba(255, 255, 255, 0.08)`).
+3. **Interactive Lift (`#1B1B1B`):** Hover-state elevation achieved via surface brightening paired with an ambient perimeter glow: `0 8px 30px rgba(0, 0, 0, 0.6), 0 0 1px 1px rgba(255, 106, 38, 0.15)`.
+4. **Frosted Navigation Surface:** Fixed navigation and sticky badges utilize an ultra-clean glassmorphic treatment: `background: rgba(14, 14, 14, 0.75)`, `backdrop-filter: blur(12px) saturate(180%)`, and `border-bottom: 1px solid rgba(255, 255, 255, 0.06)`.
+
+## Shapes
+
+The design system employs a refined geometric corner radius (`roundedness: 1`), providing modern precision without harsh industrial brutality.
+
+### Geometry Specifications
+- **Standard UI Elements (`0.25rem` / `4px`):** Used for input controls, code blocks, standard buttons, and small tags.
+- **Cards & Enclosures (`0.5rem` / `8px`):** Used for modular project containers, modal dialogues, and preview frames.
+- **Contextual Radii (`0.75rem` / `12px`):** Used strictly for outer dashboard wraps and large interactive viewports.
+- **Full Pill (`9999px`):** Reserved exclusively for live telemetry badges, filter pills, and floating action triggers.
+
+## Components
+
+### Buttons
+- **Primary:** Background `#FF6A26`, text `#0E0E0E` (bold weight), border `1px solid transparent`. Hover transition: subtle scale `1.01`, brightness `1.1`, shadow `0 0 20px rgba(255, 106, 38, 0.3)`.
+- **Secondary / Ghost:** Background `rgba(255, 255, 255, 0.03)`, text `#F3F3F3`, border `1px solid rgba(255, 255, 255, 0.1)`. Hover: background `rgba(255, 255, 255, 0.08)`, border-color `rgba(255, 255, 255, 0.2)`.
+
+### Cards & Project Showcases
+- Structure: Base fill `#141414`, border `1px solid rgba(255, 255, 255, 0.08)`, radius `8px`, padding `1.5rem`.
+- Hover Transition: Smooth 250ms cubic-bezier curve (`cubic-bezier(0.16, 1, 0.3, 1)`). Background shifts to `#1B1B1B`, border shifts to `rgba(255, 106, 38, 0.35)`, subtle top-edge directional sheen.
+
+### Badges & Status Indicators
+- **Live Status Badge:** Pill-shaped (`rounded-full`), fill `rgba(16, 185, 129, 0.08)`, border `1px solid rgba(16, 185, 129, 0.25)`, text `#10B981`. Includes a leading 6px emerald dot (`#10B981`) featuring a synchronized pulse animation (`ping` effect at 2s interval).
+- **Tech Stack Chips:** Fill `rgba(255, 255, 255, 0.04)`, border `1px solid rgba(255, 255, 255, 0.06)`, text `#A3A3A3`, radius `4px`, padding `0.25rem 0.5rem`, font `0.75rem` Geist.
+
+### Input Fields
+- Fill `#0E0E0E`, text `#F3F3F3`, border `1px solid rgba(255, 255, 255, 0.12)`, radius `4px`, padding `0.75rem 1rem`.
+- Focus State: Border color `#FF6A26`, outline `none`, box-shadow `0 0 0 1px #FF6A26`.
+
+### Lists & Navigation
+- Border-separated rows using `1px solid rgba(255, 255, 255, 0.05)`. Hovering a list item reveals a muted accent chevron and transitions the title color from `#A3A3A3` to `#F3F3F3`.
